@@ -1,11 +1,545 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fidel Mercado</title>
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
+<body>
+    <!--  navbar -->
+    <div class="container-fluid bg-primary">
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Desarrollador web y movil</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor01">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home
+                                    <span class="visually-hidden">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize" href="#habilidades_principales">habilidades
+                                    principales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize" href="#proyectos_destacados">proyectos
+                                    destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-capitalize" href="#soluciones_digitales">Soluciones
+                                    Digitales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-warning btn" href="https://wa.me/573194100210"
+                                    class="text-decoration-none" target="_blank">Contactame</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                            </li> -->
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+    </div>
+
+    <!-- slider -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" id="home">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/sistema_de_informacion.png" class="d-block w-100 " alt="sistema de informacion">
+                <div class="carousel-caption d-none d-md-block font-weight-bold text-black">
+                    <h5>Veterinaria: </h5>
+                    <p>Sistema de Información, Página Web y Aplicación Móvil</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/constructoradcc.png" class="d-block w-100" alt="constructoradcc">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DCC Diseño, Consultorías y Construcciónl</h5>
+                    <p>Página Web</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/retofit.png" class="d-block w-100" alt="retofit">
+                <div class="carousel-caption d-none d-md-block font-weight-bold text-black">
+                    <h5>Retrofit Entrenador Personal</h5>
+                    <p>Página Web</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/bordaconsulting.png" class="d-block w-100" alt="bordaconsulting">
+                <div class="carousel-caption d-none d-md-block font-weight-bold text-black">
+                    <h5>BordaConsulting Couch Personal y Empresarial</h5>
+                    <p>Página Web</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/crecimineto_ personal_yolanda.png" class="d-block w-100"
+                    alt="crecimineto_ personal_yolanda">
+                <div class="carousel-caption d-none d-md-block font-weight-bold text-black">
+                    <h5>Crecimiento Personal Coach Persona </h5>
+                    <p>Aplicación Móvil Android</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- list -->
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="text-center m-5">
+                <h1 class="text-capitalize" id="about">fidel mercado</h1>
+                <span><strong> Tecnólogo en Análisis y Desarrollo de Sistemas de Información - SENA (Servicio Nacional
+                        de Aprendizaje)</strong></span>
+                <h4>
+                    Con más de 4 años de experiencia en el mundo del desarrollo web, me especializo tanto en el backend
+                    como en el frontend. Mi objetivo es proporcionar soluciones tecnológicas que satisfagan las
+                    necesidades específicas de cada cliente. Mi pasión y expertise abarcan desde el diseño de interfaces
+                    atractivas y amigables para el usuario hasta la implementación de sistemas robustos y eficientes en
+                    la parte del backend.</h4>
+                <a href="https://github.com/fimercadog/fimercadog" target="_blank">Saber mas...</a>
+                <h2 class="mt-5" id="habilidades_principales">Habilidades Principales</h2>
+            </div>
+            <div class="col-lg-8 col-md-12 mb-2">
+
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Backend: Django, API RESTful
+                        <span class="badge bg-primary rounded-pill">88</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Frontend: Angular, Bootstrap, HTML, CSS, JavaScript.
+                        <span class="badge bg-primary rounded-pill">85</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Diseño y desarrollo web a la medida.
+                        <span class="badge bg-primary rounded-pill">91</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Creación y gestión de sistemas de información.
+                        <span class="badge bg-primary rounded-pill">95</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Desarrollo de páginas web y soluciones interactivas.
+                        <span class="badge bg-primary rounded-pill">90</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Analisis de datos.
+                        <span class="badge bg-primary rounded-pill">90</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Creacion de reels y short.
+                        <span class="badge bg-primary rounded-pill">80</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Proyectos Destacados -->
+        <div class="row " id="proyectos_destacados">
+            <h2 class="text-center mt-5">Proyectos Destacados</h2>
+            <div class="col-12  mt-5">
+                <div class="card">
+                    <img src="img/sistema_de_informacion.png" class="card-img-top" alt="veterinaria">
+                    <div class="card-body">
+                        <h5 class="card-title">Veterinaria: Sistema de Información, Página Web y Aplicación Móvil</h5>
+                        <p class="card-text">El proyecto "Veterinaria" consistió en el Desarrollo de un sistema integral
+                            para una clínica veterinaria que incluye un sistema de información para gestionar
+                            expedientes de pacientes, una página web informativa y una aplicación móvil para brindar a
+                            los clientes acceso a servicios y recursos veterinarios.</p>
+                        <p>
+                            Resultado:
+
+                            El sistema de información permite a la clínica gestionar de manera eficiente los registros
+                            de pacientes, citas, historias clínicas y facturación.
+                            La página web ofrece información detallada sobre los servicios de la clínica, horarios de
+                            atención y contacto, lo que ha aumentado la visibilidad en línea y atraído a nuevos
+                            clientes.
+                            La aplicación móvil permite a los dueños de mascotas programar citas, acceder a consejos de
+                            cuidado y recibir notificaciones importantes, mejorando así la experiencia del cliente y la
+                            fidelidad a la clínica veterinaria.
+                        </p>
+                        <p>Tecnologías Utilizadas:
+
+                            Backend: Django, Azure SQL Database.
+                            Frontend (Página Web): Angular, HTML, CSS.
+                            Aplicación Móvil: Ionic.
+                            Bases de Datos: PostgreSQL.
+                            Servicios en la Nube: Microsoft Azure.</p>
+                        <p>Resultado :
+                            El sistema de información permite a la clínica gestionar de manera eficiente los registros
+                            de pacientes, citas, historias clínicas y facturación.
+                            La página web ofrece información detallada sobre los servicios de la clínica, horarios de
+                            atención y contacto, lo que ha aumentado la visibilidad en línea y atraído a nuevos
+                            clientes.
+                            La aplicación móvil permite a los dueños de mascotas programar citas, acceder a consejos de
+                            cuidado y recibir notificaciones importantes, mejorando así la experiencia del cliente y la
+                            fidelidad a la clínica veterinaria.</p>
+                        <p>
+                            Impacto para el Cliente:
+
+                            Mayor eficiencia en la gestión de pacientes y registros.
+                            Aumento en la clientela debido a la visibilidad en línea.
+                            Mayor satisfacción de los clientes gracias a la conveniencia de la aplicación móvil.
+                            Optimización de los procesos internos de la clínica veterinaria, lo que ha llevado a una
+                            mejor atención y cuidado de las mascotas.
+                        </p>
+                        <a class="btn btn-primary" href="https://wa.me/573194100210" class="text-decoration-none"
+                            target="_blank">Contactame</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <img src="img/constructoradcc.png" class="card-img-top"
+                        alt="DCC Diseño, Consultorías y Construcción - Página Web">
+                    <div class="card-body">
+                        <h5 class="card-title">DCC Diseño, Consultorías y Construcción - Página Web</h5>
+                        <p class="card-text">Para DCC Diseño, Consultorías y Construcción, creamos una página web
+                            moderna y funcional que refleja su experiencia y profesionalismo en el sector de la
+                            construcción y consultorías. El objetivo principal de esta web era presentar de manera
+                            efectiva sus servicios, proyectos y logros. Utilizamos una combinación de tecnologías,
+                            incluyendo Azure para el alojamiento y WordPress con el tema Divi para el desarrollo.</p>
+                        <p>
+                            Tecnologías Utilizadas:
+
+                            Plataforma de Alojamiento: Azure.
+                            CMS: WordPress con el tema Divi.
+                            HTML, CSS y JavaScript para personalización adicional.
+                        </p>
+                        <p>
+                            Resultado:
+                            La página web resultante fue atractiva, fácil de navegar y totalmente receptiva, lo que
+                            garantiza una experiencia de usuario óptima en todos los dispositivos. Presentamos de manera
+                            efectiva la información sobre los servicios de DCC, sus proyectos anteriores y su equipo de
+                            expertos. Además, incorporamos formularios de contacto y llamadas a la acción que facilitan
+                            a los visitantes ponerse en contacto con la empresa.
+                        </p>
+                        <p>
+                            Impacto para el Cliente:
+                            La nueva página web ha mejorado significativamente la presencia en línea de DCC y ha
+                            facilitado el proceso de generación de leads. Los clientes potenciales pueden acceder
+                            fácilmente a información relevante y contactar a DCC para consultas y proyectos. En última
+                            instancia, la página web ha contribuido al crecimiento y la reputación de DCC en la
+                            industria de la construcción y consultorías.
+                        </p>
+                        <a class="btn btn-primary" href="https://wa.me/573194100210" class="text-decoration-none"
+                            target="_blank">Contactame</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <img src="img/retofit.png" class="card-img-top" alt="Retrofit Entrenador Personal - Página Web">
+                    <div class="card-body">
+                        <h5 class="card-title">Retrofit Entrenador Personal - Página Web</h5>
+                        <p class="card-text">Retrofit Entrenador Personal es un proyecto de desarrollo web que tenía
+                            como objetivo principal crear un sitio web atractivo y funcional para un entrenador personal
+                            que busca ofrecer sus servicios en línea. Utilizando tecnologías como Azure, WordPress con
+                            el tema Divi, y otras, logramos construir una plataforma en línea que proporciona
+                            información sobre los servicios de entrenamiento personal, consejos de salud y bienestar, y
+                            una forma sencilla para que los clientes potenciales se pongan en contacto con el
+                            entrenador.</p>
+                        <p>
+                            Tecnologías Utilizadas:
+
+                            Azure: Para la implementación y alojamiento de la página web.
+                            WordPress con Tema Divi: Utilizamos WordPress como el CMS (Sistema de Gestión de Contenido)
+                            y personalizamos el diseño utilizando el tema Divi para crear una apariencia única y
+                            atractiva.
+                            HTML, CSS y JavaScript: Personalización adicional del diseño y funcionalidades interactivas.
+                            Formularios de Contacto: Implementamos formularios de contacto para facilitar la
+                            comunicación con el entrenador personal.
+                        </p>
+                        <p>
+                            Resultado:
+
+                            El resultado fue una página web moderna, atractiva y fácil de navegar que representa de
+                            manera efectiva los servicios del entrenador personal.
+                            La inclusión de formularios de contacto ha permitido una comunicación más eficiente con los
+                            clientes potenciales.
+                        </p>
+                        <p>
+                            Impacto para el Cliente:
+
+                            La plataforma en línea ha contribuido a mejorar la visibilidad del entrenador personal.
+                            Ha aumentado la generación de leads y la captación de nuevos clientes.
+                            La presencia en línea más sólida ha elevado la credibilidad del entrenador personal en su
+                            nicho de mercado.
+                        </p>
+                        <a class="btn btn-primary" href="https://wa.me/573194100210" class="text-decoration-none"
+                            target="_blank">Contactame</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <img src="img/bordaconsulting.png" class="card-img-top"
+                        alt="BordaConsulting Couch Personal y Empresarial">
+                    <div class="card-body">
+                        <h5 class="card-title">BordaConsulting Couch Personal y Empresarial - Página Web</h5>
+                        <p class="card-text">BordaConsulting es una página web diseñada para un servicio de coaching
+                            personal y empresarial. Su objetivo principal es proporcionar a los visitantes información
+                            detallada sobre los servicios ofrecidos, así como recursos y testimonios para atraer a
+                            clientes potenciales. La página fue construida con un enfoque en la usabilidad y la
+                            estética.</p>
+                        <p>
+                            Tecnologías Utilizadas:
+
+                            Azure: Para la implementación y alojamiento de la página web.
+                            WordPress con Tema Divi: Utilizamos WordPress como el CMS (Sistema de Gestión de Contenido)
+                            y personalizamos el diseño utilizando el tema Divi para crear una apariencia única y
+                            atractiva.
+                            HTML, CSS y JavaScript: Personalización adicional del diseño y funcionalidades interactivas.
+                            Formularios de Contacto: Implementamos formularios de contacto para facilitar la
+                            comunicación con el Couch Personal y Empresarial.
+                        </p>
+                        <p>
+                            Resultado:
+
+                            Diseño Atractivo: La página web presenta un diseño atractivo y profesional que refleja la
+                            seriedad y la calidad de los servicios de coaching ofrecidos por BordaConsulting.
+
+                            Facilidad de Administración: Gracias a WordPress, el cliente puede actualizar fácilmente el
+                            contenido de la página, lo que le permite mantenerla actualizada con información relevante.
+
+                            Generación de Clientes Potenciales: La inclusión de testimonios y recursos útiles ha ayudado
+                            a atraer a nuevos clientes interesados en los servicios de coaching.
+                        </p>
+                        <p>
+                            Impacto para el Cliente:
+
+                            Mejora de la Presencia en Línea: La página web ha mejorado significativamente la presencia
+                            en línea de BordaConsulting, lo que ha contribuido a aumentar su visibilidad y reputación en
+                            el mercado de coaching personal y empresarial.
+
+                            Aumento de la Reputación: La presencia en línea mejorada ha llevado a un aumento en la
+                            reputación de BordaConsulting, lo que ha generado una mayor confianza entre los clientes
+                            actuales y potenciales.
+
+                            Mayor Conversión de Clientes: Al atraer a nuevos clientes potenciales con una página web
+                            atractiva y recursos útiles, BordaConsulting ha experimentado un aumento en la conversión de
+                            visitantes en clientes reales.
+                        </p>
+                        <a class="btn btn-primary" href="https://wa.me/573194100210" class="text-decoration-none"
+                            target="_blank">Contactame</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="card">
+                    <img src="img/crecimineto_ personal_yolanda.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Crecimiento Personal Coach Persona - Aplicación Móvil Android</h5>
+                        <p class="card-text">El proyecto "Crecimiento Personal Coach Persona" fue una aplicación móvil
+                            para dispositivos Android diseñada para brindar a los usuarios herramientas y recursos para
+                            su desarrollo personal y bienestar. La aplicación fue desarrollada con el objetivo de
+                            ofrecer un acceso conveniente a contenido educativo y actividades interactivas relacionadas
+                            con el crecimiento personal y el coaching personalizado.</p>
+                        <p>
+                            Tecnologías Utilizadas:
+
+                            Desarrollo de Aplicación Móvil: Android Studio, Java.
+
+                            Almacenamiento en la Nube: Microsoft Azure para el almacenamiento seguro de datos y
+                            contenido.
+
+                            Plataforma Web Complementaria: WordPress con el tema Divi para gestionar el contenido y
+                            recursos de la aplicación.
+                        </p>
+                        <p>
+                            Resultado:
+
+                            La aplicación permitió a los usuarios acceder a una amplia variedad de contenido, incluyendo
+                            artículos, videos, ejercicios de reflexión y seguimiento de metas personales.
+
+                            La integración con Azure garantizó la seguridad y disponibilidad de los datos de los
+                            usuarios.
+
+                            El uso de WordPress con el tema Divi permitió a los administradores de la aplicación
+                            gestionar y actualizar fácilmente el contenido sin necesidad de habilidades técnicas
+                            avanzadas.
+                        </p>
+                        <p>
+                            Impacto para el Cliente:
+
+                            La aplicación recibió una respuesta positiva de los usuarios, quienes informaron un mayor
+                            compromiso en su crecimiento personal y bienestar.
+
+                            El cliente experimentó un aumento en la retención de usuarios y una mayor participación en
+                            la plataforma, lo que llevó a un impacto positivo en su negocio de coaching personal.
+                        </p>
+                        <a class="btn btn-primary" href="https://wa.me/573194100210" class="text-decoration-none"
+                            target="_blank">Contactame</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Soluciones Digitales -->
+        <div class="row mt-5 align-items-center" id="soluciones_digitales">
+            <div class="col-12 col-md-9 text-center ">
+                <h3>Soluciones Digitales Integradas: Diseño Web, Sistemas de Información, Aplicaciones Móviles y
+                    Análisis de Datos</h3>
+                <p>Ofrecemos una suite completa de soluciones digitales que abarcan desde la creación de páginas web y
+                    sistemas de información personalizados hasta el desarrollo de aplicaciones móviles innovadoras,
+                    chatbots inteligentes y análisis de datos estratégicos para impulsar tu negocio hacia el éxito
+                    digital.</p>
+
+            </div>
+            <div class="col-12 col-md-3">
+                <img src="img/sistema_de_informacion.png" alt="" class="img-fluid rounded-top">
+            </div>
+            <div class="mt-5 mb-2 text-center">
+
+                <button type="button" class="btn btn-primary col-12 col-md-3 mb-5 d-block myclass" style="myclass-button:hover {
+                    background-color: #ffc107;
+                    color: #000;
+                  }">Contacar</button>
+                <span class="text-center ">¡Hola! 👋 Estoy aquí para ayudarte. Si tienes alguna pregunta o necesitas
+                    asistencia con tu sitio web, no dudes en contactarme, Agregame para darte un mejor servicio. Solo
+                    haz clic en el siguiente enlace para comenzar nuestra conversación en WhatsApp: 🚀 <a
+                        href="https://wa.me/573194100210" class="text-decoration-none">Contactar conmigo 📱💬</a></span>
+                <!-- <span class="text-center">Agrégame y ponte en contacto <strong><a href="" style="text-decoration: none;">📱💬</a></strong>   conmigo para recibir un servicio más completo y personalizado.</span> -->
+
+            </div>
+        </div>
+
+        <!-- form
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-7">
+                <h3>Envia un correo</h3>
+                <form wtx-context="7F03B528-EDD1-4FF8-8797-820C74C7CE02">
+                    <fieldset>
+                        <legend>Nombre</legend>
+                        <div class="form-group row">
+                            <label for="staticName" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" readonly="" class="form-control-plaintext" id="staticName"
+                                    value="email@example.com" wtx-context="9FD485A1-182E-4F7B-81D3-6D971EF04986">
+                            </div>
+                        </div>
+                        <div class="form-group">Nombre</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email"
+                                wtx-context="E7AE92D4-7B59-4EC3-8675-968DE23B0341">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email"
+                                wtx-context="E7AE92D4-7B59-4EC3-8675-968DE23B0341">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleTextarea" class="form-label mt-4">Example textarea</label>
+                            <textarea class="form-control" id="exampleTextarea" rows="3" spellcheck="false" data-ms-editor="true"></textarea>
+                          </div>
+
+                        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div> -->
+
+        <!-- <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Información de Contacto</h3>
+                  <p>123 Calle Principal</p>
+                  <p>Ciudad, País</p>
+                  <p>Teléfono: (123) 456-7890</p>
+                  <p>Email: info@example.com</p>
+                </div>
+                <div class="col-md-6">
+                  <h3>Enlaces Rápidos</h3>
+                  <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer> -->
+
+        <footer class="footer mt-5">
+            <div class="container text-center">
+                <p>&copy; 2023 Fidel Mercado. Todos los derechos reservados. <a
+                        href="https://github.com/fimercadog/fimercadog" target="_blank"> <img
+                            src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" width="17px">
+                        Github</a> </p>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
